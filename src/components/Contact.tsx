@@ -9,7 +9,7 @@ import { slideIn } from '../utils/motion'
 
 const Contact = () => {
 
-  const formRef = useRef()
+  const formRef = useRef<any>()
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -18,7 +18,7 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false)
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement> ) => {
+  const handleChange = (e: any ) => {
     const { name, value } = e.target
     setForm({...form, [name]: value})
 
