@@ -8,7 +8,7 @@ import { experiences } from '../constants'
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 
-const ExperienceCard = ({experience}) => {
+const ExperienceCard = ({experience}: any) => {
   return(
     <VerticalTimelineElement
     contentStyle={{background: '#1d1836', color: "#fff"}}
@@ -31,7 +31,7 @@ const ExperienceCard = ({experience}) => {
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
-        {experience.points.map((point, index) => (
+        {experience.points.map((point: string, index: number) => (
           <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">
             {point}
           </li>
