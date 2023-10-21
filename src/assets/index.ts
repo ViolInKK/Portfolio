@@ -11,6 +11,9 @@ import connectFour from "./connectFour.png"
 import blogr from "./blogr.png"
 import dictionary from "./dictionary.png"
 import newWindow from "./newWindow.svg"
+import kanbanBoard from "./kanbanBoard.png"
+import ageCalculator from "./ageCalculator.png"
+import sunnySide from "./sunnySide.png"
 
 export {
     logo,
@@ -26,4 +29,7 @@ export {
     blogr,
     dictionary,
     newWindow,
+    kanbanBoard,
+    ageCalculator,
+    sunnySide,
   };

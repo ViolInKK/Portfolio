@@ -7,6 +7,9 @@ import {
   connectFour,
   blogr,
   dictionary,
+  kanbanBoard,
+  ageCalculator,
+  sunnySide,
 } from "../assets"
 
 export const navLinks = [
@@ -117,5 +120,63 @@ export const navLinks = [
       image: dictionary,
       source_code_link: "https://github.com/ViolInKK/Dictionary",
       project_link: "https://violinkk.github.io/Dictionary/",
+    },
+    {
+      name: "Kanban Board",
+      description:
+        "Kanban board specifically designed to streamline project management and enhance collaboration within teams. With its intuitive interface and comprehensive feature set, it helps you visualize your workflows, manage tasks, and track progress with ease.",
+      tags: [
+        {
+          name: "react",
+          color: "text-blue-500",
+        },
+        {
+          name: "redux",
+          color: "text-blue-500",
+        },
+        {
+          name: "drag-n-drop",
+          color: "text-green-500",
+        },
+        {
+          name: "css",
+          color: "text-pink-500",
+        }
+      ],
+      image: kanbanBoard,
+      source_code_link: "https://github.com/ViolInKK/KanbanBoard",
+      project_link: "https://violinkk.github.io/KanbanBoard/",
+    },
+    {
+      name: "Age Calculator",
+      description:
+        "Age Calculator is a user-friendly online tool that allows you to effortlessly calculate your age based on your birthdate. With its simple interface and accurate calculations, this web application provides a quick and convenient way to determine how many years, months, days old you are.",
+      tags: [
+        {
+          name: "react",
+          color: "text-blue-500",
+        },
+        {
+          name: "css",
+          color: "text-pink-500",
+        },
+      ],
+      image: ageCalculator,
+      source_code_link: "https://github.com/ViolInKK/Frontend-mentor-age-calculator",
+      project_link: "https://violinkk.github.io/Frontend-mentor-age-calculator/",
+    },
+    {
+      name: "Sunnyside landing page",
+      description:
+        "Sunnyside is a premier landing page design service that aims to transform your online presence and captivate your audience from the moment they visit your website.",
+      tags: [
+        {
+          name: "css",
+          color: "text-pink-500",
+        },
+      ],
+      image: sunnySide,
+      source_code_link: "https://github.com/ViolInKK/Sunnyside",
+      project_link: "https://violinkk.github.io/Sunnyside/",
     },
   ];
