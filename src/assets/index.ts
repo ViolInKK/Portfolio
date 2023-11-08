@@ -14,6 +14,7 @@ import newWindow from "./newWindow.svg"
 import kanbanBoard from "./kanbanBoard.png"
 import ageCalculator from "./ageCalculator.png"
 import sunnySide from "./sunnySide.png"
+import calculator from "./calculator.jpg"
 
 export {
     logo,
@@ -32,4 +33,5 @@ export {
     kanbanBoard,
     ageCalculator,
     sunnySide,
+    calculator,
   };

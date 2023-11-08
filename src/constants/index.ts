@@ -10,6 +10,7 @@ import {
   kanbanBoard,
   ageCalculator,
   sunnySide,
+  calculator,
 } from "../assets"
 
 export const navLinks = [
@@ -52,7 +53,7 @@ export const navLinks = [
       company_name: "Learning",
       icon: learning,
       iconBg: "#383E56",
-      date: "September 2022 - Present",
+      date: "September 2021 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -76,6 +77,32 @@ export const navLinks = [
       image: blogr,
       source_code_link: "https://github.com/ViolInKK/Blogr",
       project_link: "https://violinkk.github.io/Blogr/",
+    },
+    {
+      name: "Calculator",
+      description:
+        "A basic calculator for your needs",
+        tags: [
+          {
+            name: "react",
+            color: "text-blue-500",
+          },
+          {
+            name: "typescript",
+            color: "text-blue-500",
+          },
+          {
+            name: "tailwind",
+            color: "text-pink-500",
+          },
+          {
+            name: "redux",
+            color: "text-blue-500",
+          },
+        ],
+        image: calculator,
+        source_code_link: "https://github.com/ViolInKK/calculator",
+        project_link: "https://violinkk.github.io/calculator/",
     },
     {
       name: "Connect Four",
